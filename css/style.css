@@ -1,0 +1,173 @@
+:root {
+  --warnautama: #2e2a2a;
+  --warnakedua: #574f4f;
+  --ascentcolor: #d64242;
+}
+
+body {
+  background-color: var(--warnautama);
+  min-height: 900px;
+  font-family: "inter", sans-serif;
+}
+
+section h1 {
+  color: #ffff;
+  font-size: 2.1rem;
+}
+
+/* Style Navbar */
+
+.nav-link.active {
+  color: var(--ascentcolor) !important;
+  font-weight: 800;
+}
+
+.nav-dark {
+  background-color: var(--warnakedua) !important;
+  z-index: 10;
+  transition: 0.9s;
+}
+
+/* End Style Navbar */
+
+/* Hero */
+
+.color-ascent {
+  color: var(--ascentcolor);
+}
+
+#hero {
+  color: #ffff;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+#hero h1 {
+  font-size: 2rem;
+}
+
+#hero p {
+  font-size: 0.95rem;
+}
+
+.btn-custom {
+  background-color: var(--ascentcolor);
+  text-align: center;
+  color: #ffff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn-custom:hover {
+  box-shadow: 0 0 10px rgba(220, 19, 19, 0.8);
+}
+
+.sosial-icon {
+  top: 100%;
+}
+.sosial-icon svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+.sosial-icon svg:hover {
+  transform: scale(1.5);
+}
+.sosial-icon2-footer svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+/* End Hero */
+
+/* About */
+
+hr {
+  width: 30%;
+  height: 7px;
+  color: var(--ascentcolor);
+  margin: auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 100px;
+  width: 100%;
+  background-color: var(--warnakedua);
+  color: #ffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+/* End About */
+
+/* Skill */
+
+.color-kedua {
+  color: #ceb6b6;
+}
+
+#skill {
+  min-height: 600px;
+  width: 100%;
+  color: #ffff;
+}
+
+#skill img {
+  width: 13%;
+  margin: 7px;
+}
+#skill img:hover {
+  transform: scale(1.5);
+}
+
+#skill .card {
+  background-color: #403939;
+  height: 340px;
+}
+
+#skill .card:hover {
+  background-color: var(--ascentcolor);
+}
+.skill-content {
+  margin-top: 100px;
+}
+
+/* End Skill */
+
+/* Projects */
+
+#projects {
+  margin-top: -170px;
+  padding-top: 270px;
+  padding-bottom: 60px;
+  background-color: var(--warnakedua);
+}
+
+#projects .container {
+  padding: 50px 10px;
+}
+
+#projects img {
+  width: 40%;
+  margin: 5px;
+}
+
+#projects img:hover {
+  transform: scale(1.5);
+}
+/* End Projects */
+
+#projects img {
+  /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+#projects img {
+  transition: transform 0.5s ease;
+}
+#projects img :hover {
+  transform: scale(10) !important;
+}
