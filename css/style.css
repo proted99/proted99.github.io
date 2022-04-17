@@ -114,6 +114,11 @@ hr {
   color: #ffff;
 }
 
+.nav-tab {
+  background: var(--warnakedua);
+  border: #d64242 solid 3px;
+}
+
 #skill img {
   width: 13%;
   margin: 7px;
@@ -124,7 +129,7 @@ hr {
 
 #skill .card {
   background-color: #403939;
-  height: 340px;
+  height: 350px;
 }
 
 #skill .card:hover {
