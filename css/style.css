@@ -127,6 +127,24 @@ hr {
   transform: scale(1.5);
 }
 
+.skills__subtitle {
+  color: #ffff;
+  margin-bottom: 1rem;
+}
+.skills__name {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--warnakedua);
+  border-radius: 0.25rem;
+}
+.skills__name:hover {
+  background-color: var(--ascentcolor);
+  color: #ffff;
+}
+
 #skill .card {
   background-color: #403939;
   height: 350px;
@@ -136,7 +154,7 @@ hr {
   background-color: var(--ascentcolor);
 }
 .skill-content {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* End Skill */
