@@ -26,6 +26,7 @@ section h1 {
   background-color: var(--warnakedua) !important;
   z-index: 10;
   transition: 0.9s;
+  border-bottom: #d64242 solid 3px;
 }
 
 /* End Style Navbar */
@@ -96,11 +97,21 @@ hr {
   width: 100%;
   background-color: var(--warnakedua);
   color: #ffff;
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 60px;
   margin-bottom: 60px;
 }
 /* End About */
+
+#experience {
+  min-height: 70px;
+  width: 100%;
+  background-color: var(--warnakedua);
+  color: #ffff;
+  margin-top: 10px;
+  padding-top: 70px;
+  margin-bottom: 10px;
+}
 
 /* Skill */
 
@@ -159,13 +170,49 @@ hr {
 
 /* End Skill */
 
+/* sertifikat */
+
+#sertifikat {
+  margin-top: -170px;
+  padding-top: 200px;
+  padding-bottom: 60px;
+  background-color: var(--warnakedua);
+}
+
+#sertifikat .container {
+  padding: 50px 10px;
+}
+
+#sertifikat img {
+  width: 100%;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+#sertifikat img:hover {
+  transform: scale(1.3);
+}
+/* End Projects */
+
+#sertifikat img {
+  /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+#sertifikat img {
+  transition: transform 0.5s ease;
+}
+#sertifikat img :hover {
+  transform: scale(10) !important;
+}
+
 /* Projects */
 
 #projects {
-  margin-top: -170px;
-  padding-top: 270px;
+  margin-top: -260px;
+  padding-top: 200px;
   padding-bottom: 60px;
-  background-color: var(--warnakedua);
 }
 
 #projects .container {
@@ -194,4 +241,8 @@ hr {
 }
 #projects img :hover {
   transform: scale(10) !important;
+}
+
+footer {
+  background-color: var(--warnakedua);
 }
